@@ -34,6 +34,61 @@ header{
     padding: 15px;
     list-style-type: none;
 }
+
+.header{
+    color: white;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: center;
+    font-size: 2em;
+
+}
+.image-holder{
+    position: relative;
+    height: 50vh;
+}
+.imgg{
+
+   
+    
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+#center{
+    position: relative;
+   
+    
+    transform: translate(0,-115%);
+}
+.additional {
+    display: flex;
+    flex-direction: column;
+   font-size: 18px;
+   color: white;
+    align-items: center;
+    margin-top: 20px;
+}
+.additional-one{
+    margin: auto;
+}
+.more{
+   
+   background-color: #B140AA;
+   color: white;
+   border: 2px solid white transparent;
+   padding: 10px 35px 10px 35px;
+   border-radius: 3px;
+
+    
+}
+.more:hover{
+    color: blue;
+    
+}
+
 @media (max-width:790px){
     .logo-image{
         width: 50%;
