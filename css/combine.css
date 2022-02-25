@@ -42,7 +42,7 @@ header{
     align-items: center;
     margin-bottom: 10px;
     justify-content: center;
-    font-size: 2em;
+    font-size: 4vh;
 
 }
 .image-holder{
@@ -56,17 +56,20 @@ header{
     display: flex;
     justify-content: center;
     margin: auto;
+    
 }
 #center{
     position: relative;
+    
    
     
     transform: translate(0,-115%);
 }
+
 .additional {
     display: flex;
     flex-direction: column;
-   font-size: 18px;
+   font-size: 2vh;
    color: white;
     align-items: center;
     margin-top: 20px;
@@ -76,11 +79,12 @@ header{
 }
 .more{
    
-   background-color: #B140AA;
+   background-color: #3c3d4e;
    color: white;
    border: 2px solid white transparent;
    padding: 10px 35px 10px 35px;
-   border-radius: 3px;
+   border-radius: 10px;
+   font-size: 18px;
 
     
 }
