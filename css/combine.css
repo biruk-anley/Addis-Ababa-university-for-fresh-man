@@ -1,6 +1,9 @@
 
 body{
-    background-color: #292C33;
+    background-image: url(/backgroud.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 .logo-image{
     width: 30%;
