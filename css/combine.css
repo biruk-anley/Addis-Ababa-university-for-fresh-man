@@ -15,7 +15,7 @@ a{
 
 }
 a:hover{
-    color: red;
+    color: rgb(0, 183, 255);
     text-decoration: underline;
     transition: ease(2.5s);
 }
@@ -48,10 +48,7 @@ header{
     font-size: 4vh;
 
 }
-.image-holder{
-    position: relative;
-    height: 50vh;
-}
+
 
 @media (max-width:790px){
     .logo-image{
