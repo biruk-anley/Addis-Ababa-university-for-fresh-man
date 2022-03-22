@@ -1,5 +1,8 @@
 body{
-     background-image: url(/backgroud.PNG);
+     background-image: url("/images/backgroud.PNG");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    color: red;
+    background-position: px;
 }
