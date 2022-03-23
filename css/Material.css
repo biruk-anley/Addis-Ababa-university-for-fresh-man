@@ -1,0 +1,99 @@
+body {
+  background-color: black;
+  color: rgba(255, 255, 255, 0.877);
+  margin: 0;
+   font-family: 'Montserrat', sans-serif;
+}
+
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+    
+}
+.holder-1{
+  color: white;
+}
+.material-holder{
+    grid-column: span 9;
+    grid-column-start: 2;
+    grid-column-end: 9;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    width: fit-content;
+   
+}
+.chooser{
+    grid-column: span 9;
+    grid-column-start: 2;
+    grid-column-end: 9;
+    border: 1px solid #55d1e407;
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+     background-color: #353535;
+     font-size: 1.5em;
+   
+}
+.bookholder{
+    grid-column: span 9;
+    grid-column-start: 2;
+    grid-column-end: 9;
+    border: #353535 solid 1px;
+    display: flex;
+    flex-direction: column;
+    background-color: #353535;
+    
+}
+.oneholder{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #7C91C9;
+    flex-wrap: wrap;
+   
+}
+.file{
+    display: flex;
+    align-items: center;
+}
+.book-title{
+    color: #55D0E4;
+    padding-left: 10px;
+   
+    
+}
+.book-title-main{
+    font-size: 2em;
+    font-weight: 500;
+    margin-bottom: -1px;
+
+}
+
+.book-title-describe{
+font-size: 1.2em;
+}
+.title{
+    font-size: 3em;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 600;
+     margin: 0;
+     margin-top: 40px;
+}
+.describe{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+     font-weight: 600;
+     padding: 15px;
+     
+     text-indent: 10px;
+     letter-spacing: 0.7px;
+     line-height: 1.8em;
+     width: fit-content;
+     
+
+
+}
