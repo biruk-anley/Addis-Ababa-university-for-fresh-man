@@ -1,0 +1,31 @@
+body{
+   background-image: url(/images/AddisAbaba/back4.PNG );
+   
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    
+}
+.slideImage{
+    /* position: absolute;
+    top: 20%;
+    left: 1%;
+    z-index: 1; */
+    
+    
+    position: relative;
+    display:flex;
+    align-items: center;
+    border: 5px solid green;
+    width: 60%;
+    justify-content: center;
+}
+.detail{
+    display: flex;
+    flex-direction: column;
+}
+.btn{
+    width: 30%;
+}
