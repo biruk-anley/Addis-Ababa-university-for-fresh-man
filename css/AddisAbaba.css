@@ -1,31 +1,90 @@
-body{
-   background-image: url(/images/AddisAbaba/back4.PNG );
-   
+.nav-bar{
+    font-weight: 600;
 }
 
-.container{
-    display: flex;
-    align-items: center;
-    
+body{
+   background-color: #313131;
+  
 }
 .slideImage{
-    /* position: absolute;
-    top: 20%;
-    left: 1%;
-    z-index: 1; */
-    
-    
-    position: relative;
-    display:flex;
+    width: 80%;
+}
+.container{
+    /* border: 10px dotted blue; */
+    min-height: 70vh;
+    display: flex;
     align-items: center;
-    border: 5px solid green;
-    width: 60%;
-    justify-content: center;
+    justify-content: end;
+   
+}
+.img{
+    /* border: 5px solid green; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
 }
 .detail{
+    /* border: 5px solid red; */
     display: flex;
     flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    padding-left: 15px;
+    
+
+}
+h2{
+  color: white;
+ 
+  
+  font-size: 2em;
+  font-weight: 600;
+  font-weight: bolder;
+
+}
+p{
+    margin-top: -1px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 500;
+    line-height: 25px;
+    text-indent: 20px;
 }
 .btn{
-    width: 30%;
+padding: 10px;
+font-family: 'Montserrat', sans-serif;
+background-color: #313131;
+color: white;
+font-weight: 600;
+font-size: 1.5em;
+letter-spacing: 2px;
+
+}
+.icon{
+    width: 7%;
+}
+
+@media(max-width:900px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+   
+    
+}
+@media(min-width:400px){
+    h2{font-size: 1.7em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    padding-top: 10px;
+  
+    }
+    p{
+        line-height: 25px;
+    }
 }
