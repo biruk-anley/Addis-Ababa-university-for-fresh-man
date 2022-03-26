@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.first-holder{
+    background-color: #323236;
+   
+}
+.desc-image{
+    width: 50%;
+   
+  
+}
+figure{
+    background-color: white;
+}
+figcaption{
+    padding: 15px;
+    line-height: 25px;
+}
+.cardholder{
+    display: flex;
+    
+    flex-direction: row;
+    
+    margin: auto;
+}
+.tourcard-1{
+        margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.top-image{
+    width: 100%;
+   
+}
+/* eachholder is the best mechanism in css to make the whole page to be
+    to be putted at middle you need to set up both max-width and margin auto
+    that is the way
+*/
+.eachholder{
+    max-width: 600px;
+    margin: auto;
+   
+    
+}
+button{
+padding-top: 7px;
+padding-bottom: 7px;
+background-color: #474545;
+font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 1.1em;
+    
+}
+.button-holder {
+   
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    
+    
+    
+}
