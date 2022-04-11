@@ -2,7 +2,12 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
+    color: black;
     
+}
+header{
+    display: flex;
+    flex-direction: row;
 }
 
 .first-holder{
