@@ -15,12 +15,21 @@ header{
    
 }
 .desc-image{
-    width: 50%;
+    width: 100%;
+    
    
   
 }
+.detail-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+object-fit: contain;
+    border: 5px solid red;
+}
 figure{
     background-color: white;
+    
 }
 figcaption{
     padding: 15px;
@@ -31,7 +40,6 @@ figcaption{
     
     flex-direction: row;
     
-    margin: auto;
 }
 .tourcard-1{
         margin: auto;
@@ -79,4 +87,42 @@ font-family: 'Montserrat', sans-serif;
 }
 #back{
     display: none;
+}
+
+
+@media(max-width:700px) {
+    .cardholder {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .nav-bar{
+        display: none;
+    }
+    #for {
+        display: block;
+       
+    
+    
+    }
+    
+    #back {
+        display: block;
+    }
+    .mobile{
+        display: flex;
+        flex-direction: row;
+        padding: 15px;
+        align-items: center;
+    }
+    #nonee{
+        display: none;
+    }
+    #nones{
+        display: none;
+    }
+    
+
+
 }
