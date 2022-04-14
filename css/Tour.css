@@ -24,7 +24,7 @@ header{
     display: flex;
     flex-direction: row;
     align-items: center;
-object-fit: contain;
+    object-fit: contain;
     border: 5px solid red;
 }
 figure{
