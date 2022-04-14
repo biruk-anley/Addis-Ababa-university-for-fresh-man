@@ -1,0 +1,19 @@
+body{
+    background-color: #CBCBCB;
+}
+.container{
+   display: flex;
+   border: 4px solid green;
+   height: 80vh;
+   align-items: flex-end;
+}
+.center{
+    display: flex;
+}
+.imagess img{
+   width: 75%;
+    
+    
+
+    
+}
