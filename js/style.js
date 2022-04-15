@@ -13,14 +13,11 @@ var swiper = new Swiper(".swiper-container", {
   loop: true,
 });
 
-function click() {
-  document.getElementById('')
-}
-
-function city() {
-  
-  
-}
-function campus() {
-  
-}
+// function city() {
+//   document.getElementById("campus").style.display = "none";
+//   document.getElementById("city").style.display = "block";
+// }
+// function campus() {
+//   document.getElementById("city").style.display = "none";
+//   document.getElementById("campus").style.display = "block";
+// }
