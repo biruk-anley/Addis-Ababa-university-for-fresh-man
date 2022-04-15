@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery</title>
+    <link rel="stylesheet" href="../js/swiper.min.css">
     <link rel="stylesheet" href="/css/combine.css">
     <link rel="stylesheet" href="/css/Gallery.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -15,7 +16,7 @@
     <!--specify the header-->
     <header>
         <div class="logo">
-            <img class="logo-image" src="/images/logo2.png" alt="logo for kibur website">
+            <img class="logo-image" src="../images/logo.png" alt="logo for kibur website">
         </div>
         <div class="nav-bar">
             <ul class="nav-bar--holder">
@@ -33,35 +34,90 @@
     </header>
 
     <!--specifying the main body-->
-
-    <main>
-        <div class="image-chooser">
-            <p>Campuses</p>
-            <p>Addis Ababa</p>
+    <div class="swiper-container">
+        <div class="options">
+            <button onclick="city()">City</button>
+            <button onclick="campus()">Campuses</button>
         </div>
+        
+        <h2 style="text-align: center; font-size: 2em; color: white;">Gallery for AddisAbaba!</h2>
+        <div id="city"></div>
+        <div id="campus"></div>
+        <div class="swiper-wrapper">
+    
+            <div class="swiper-slide" style="background-image:url(../images/AddisAbaba/1.jpg)">
+                <div class="info">
+                    <h5>Meskel square <br> <span>Adiss Ababa</span></h5>
+                </div>
+            </div>
+    
+            <div class="swiper-slide" style="background-image:url(../images/AddisAbaba/2.jpg)">
+                <div class="info">
+                    <h5>Sky-light hotel<br> <span>Bole</span></h5>
+                </div>
+            </div>
+            <div class="swiper-slide" style="background-image:url(../images/AddisAbaba/3.jpg)">
+                <div class="info">
+                    <h5>Addis Ababa<br> <span>at night</span></h5>
+                </div>
+            </div>
+            <div class="swiper-slide" style="background-image:url(../images/AddisAbaba/4.jpg)">
+                <div class="info">
+                    <h5>meskel square <br> <span>Addis Ababa</span></h5>
+                </div>
+            </div>
+            <div class="swiper-slide" style="background-image:url(../images/AddisAbaba/5.jpg)">
+                <div class="info">
+                    <h5>menilik monument<br> <span>Piassa</span></h5>
+                </div>
+            </div>
+            <div class="swiper-slide" style="background-image:url(../images/AddisAbaba/7.jpg)">
+                <div class="info">
+                    <h5>streets <br> <span>Addis Ababa</span></h5>
+                </div>
+            </div>
+            <div class="swiper-slide" style="background-image:url(../images/AddisAbaba/8.jpg)">
+                <div class="info">
+                    <h5>Skate board <br> <span>4 killo</span></h5>
+                </div>
+            </div>
+            <div class="swiper-slide" style="background-image:url(../images/AddisAbaba/9.jpg)">
+                <div class="info">
+                    <h5>Commerical Bank <br> <span>Mexico</span></h5>
+                </div>
+            </div>
+            <div class="swiper-slide" style="background-image:url(../images/AddisAbaba/10.jpg)">
+                <div class="info">
+                    <h5>Condeminium <br> <span>Around Ayat</span></h5>
+                </div>
+            </div>
+            <div class="swiper-slide" style="background-image:url(../images/AddisAbaba/11.jpg)">
+                <div class="info">
+                    <h5>Africa Union<br> <span>Mexico</span></h5>
+                </div>
+            </div>
+            <div class="swiper-slide" style="background-image:url(../images/AddisAbaba/12.jpg)">
+                <div class="info">
+                    <h5>Africa Union <br> <span>Mexico</span></h5>
+                </div>
+            </div>
+            <div class="swiper-slide" style="background-image:url(../images/AddisAbaba/13.jpg)">
+                <div class="info">
+                    <h5>Skate board <br> <span>4 killo</span></h5>
+                </div>
+            </div>
 
-
-        <div class="imageholder">
-            <img src="" alt="image1">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
         </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+    
+    
+    <script src="../js/swiper.min.js"></script>
+    <script src="../js/style.js">
 
-    </main>
-
-    <!--specifying the footer-->
-    <footer>
-
-
-    </footer>
-
-
-    <!--specifying scripts-->
-    <script src=""></script>
+    </script>
+    
 </body>
 
 </html>
