@@ -11,6 +11,7 @@ body{
    justify-content: space-around;
 
 }
+
 .center{
     display: flex;
     align-items: center;
