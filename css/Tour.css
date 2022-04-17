@@ -21,15 +21,22 @@ header{
   
 }
 .detail-info{
+    margin-left: -6em;
     display: flex;
     flex-direction: row;
     align-items: center;
-    object-fit: contain;
-    border: 5px solid red;
+   
 }
 figure{
     background-color: white;
+
     
+}
+.icon{
+    padding-right: 10px;
+}
+.icons {
+    padding-left: 10px;
 }
 figcaption{
     padding: 15px;
@@ -57,10 +64,16 @@ figcaption{
     that is the way
 */
 .eachholder{
-    max-width: 600px;
-    margin: auto;
+    
+        max-width: 700px;
+        margin: 46px auto;
+        padding: 20px;
+
    
     
+}
+a.ma{
+    color:blue;
 }
 button{
 padding-top: 7px;
@@ -122,6 +135,23 @@ font-family: 'Montserrat', sans-serif;
     #nones{
         display: none;
     }
+    img{
+        width: 9%;
+    }
+    .detail-info{
+        position: relative;
+        
+    }
+    .icon{
+        position: relative;
+        left: 12%;
+    }
+
+    .icons{
+        position: relative;
+        right: 12%;
+    }
+
     
 
 
