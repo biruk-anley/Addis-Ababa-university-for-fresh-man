@@ -1,0 +1,54 @@
+.AllHolder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+
+}
+.firstone figure{
+    margin: 0;
+    
+}
+
+.list{
+    display: flex;
+    justify-content: space-around;
+}
+a.map{
+    color:blue;
+}
+
+.container-1 {
+   
+    margin: 6px;
+    
+    text-align: center;
+    color: white;
+}
+.container-1 img{
+    width: 100%;
+}
+
+.container-2 img{
+    width: 50%;
+    
+    
+}
+
+.container-2{
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    z-index: 1;
+    
+
+}
+@media(max-width:550px) {
+    .container-2 {
+        position: absolute;
+        left: 30%;
+        top: 40%;
+        z-index: 1;}
+
+}
