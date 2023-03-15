@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="/css/combine.css">
     <link rel="stylesheet" href="/css/AddisAbaba.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-cR5v5Y5y5JLx7e+nLcEDpKj8uPZtyDFT7OuMSejKxp7Xu4yHCUmLRu/JoiSiZfjwZNNaS4ty7V/EiCtKj7dY8Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
 <body>
@@ -38,9 +40,16 @@
         <!--this is an image that is varid with js-->
         <div class="container">
             <div class="img">
-                <img class="icon" src="/images/back.png" alt="">
-                <img src="/images/AddisAbaba/1.jpg" class="slideImage" alt="image of addis abab" >
-                <img class="icon" src="/images/forward.png" alt="">
+                <button id="previous" class="icon-button">
+                    <i class="fas fa-arrow-left"></i>
+                  </button>
+                    <img id="image" src="image1.jpg" class="slideImage" alt="image of addis abab" >
+                  
+                  <button id="next" class="icon-button" id="forward-button">
+                    <i class="fas fa-arrow-right"></i>
+                  </button>
+                  
+
             </div>
             
             <div class="detail">
@@ -53,7 +62,10 @@
                     several important museums stationed here, as well as major universities.
                     
                 </p>
-                <button class="btn">watch videos</button>
+                <a href="https://www.youtube.com/watch?v=Xc7qkpsY0lY" target="_blank">
+                    <button class="btn">watch videos</button>
+
+                </a>
             
             </div>
 
@@ -62,15 +74,14 @@
         
     </main>
 
-    <!--specifying the footer-->
-    <!-- <footer>
-        <img src="/images/Addis Ababa/foooo.svg" alt="image for footer" style="width: 100%;">
+  
+   
+    
+    <script src="new.js">
+      
+    </script>
+    
 
-    </footer> -->
-
-
-    <!--specifying scripts-->
-    <script src=""></script>
 </body>
 
 </html>
